@@ -1,0 +1,72 @@
+.ex1{
+    width: 200px;
+    height: 100px;
+    border: 3px green solid ;
+}
+
+.ex2{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+}
+p{
+    color: red;
+    font-size: 20px;
+    font-family: arial;
+}
+
+h2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:purple;
+}
+
+div{
+    background-color: #eeeeee;
+    padding: 25px;
+}
+
+.ex6{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+    margin-bottom: 30px;
+}
+
+.ex{
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+
+}
+
+.curriculo{
+    width: 100px;
+    height: 100px;
+    background-color:black;
+    border-radius: 100px;
+
+}
+#caixa-destaque{
+    width: 500px;
+    height: 50px;
+    border: 2px dashed;
+    color: cyan;
+
+}
+
+.texto-importante{
+    font-weight: bold;
+}
+
+.class:hover{
+    text-decoration: none;
+    color:red;
+}
+    
+
+
+   
+
+   

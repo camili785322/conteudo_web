@@ -20,17 +20,31 @@ header{
     align-items: center;
     border: 1px pink solid;
     padding: 12px;
-}
-h2{
-    color:rgb(39, 39, 134);
-}
-p{
-    color:rgb(72, 72, 204);
+    box-shadow: 0px 0px 100px rgb(245, 170, 195);
 }
 
-li{
-    color:rgb(72, 72, 204);
+.artigo-c-imagem{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
-article{
-    background-color:aliceblue;
+
+.artigo-c-imagem article{
+    padding: 12px;
+    border: 1px #FFBBFF;
+    border-radius: 10px;
+
+}
+
+.artigo-c-imagem article p{
+    font-size: 22px;
+}
+.hobbies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hobbies{
+    font-size: 22px;
 }
