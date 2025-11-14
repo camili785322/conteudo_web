@@ -1,0 +1,98 @@
+.container-central{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.caixa-login{
+    width: 300px; 
+    height: 200px;
+    background-color:#f0f0f0;
+    border:1px #cecece solid;
+
+}
+.ul{
+    display: flex;
+    list-style: none;
+    margin-right: 15px;
+}
+.nav{
+     padding: 10px;
+     background-color:#333;
+}
+.a{
+    color: white;
+    text-decoration: none;
+}
+.container-pagina{
+    display: flex;
+
+}
+.sidebar{
+    width:250px;
+    background-color:#ececec;
+
+}
+.conteudo-principal{
+     flex-grow: 1;
+     background-color:#fff;
+     padding: 20px;
+}
+.body{
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;
+
+}
+.header{
+    background-color: #444;
+    padding: 20px;
+}
+.footer{
+    background-color: #444;
+     padding: 20px;
+}
+
+.main{
+    flex-grow: 1;
+}
+.card{
+     width: 300px;
+     box-shadow: 0 4px 8px #ccc;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+    }
+.img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.div{
+     padding:15px;
+}
+
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item-galeria{
+    width: 150px;
+    height: 150px;
+    background-color:#add8e6;
+    margin:10px;
+}
+
+.grid-container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  1fr 1fr 1fr;
+
+}
+.coluna{
+    background-color: #b2d8b2;
+    padding: 50px;
+}
+
