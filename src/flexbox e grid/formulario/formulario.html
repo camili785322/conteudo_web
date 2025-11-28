@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+         <link rel="stylesheet" href="./formulario.css">
+
+    </head>
+    <body>
+        <section>
+            <form onsubmit="enviaFormulario(event)">
+                <div class = "envelope">
+                    <label for>Nome</label>
+                    <input type="text" id="nome" placeholder="Digite o nome"/>
+                </div>
+                <div class="envelope">
+                    <label for>Sobrenome</label>
+                    <input type="text" id="sobrenome" placeholder="Digite o sobrenome"/>
+                </div>
+                <div class="envelope">
+                    <label for>Data de nascimento</label>
+                    <input type="date" id="dt_nascimento"/>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <table id="relatorio">
+                <tr>
+                    <th>Nome</th>
+                    <th>Sobrenome</th>
+                    <th>Data de nascimento</th>
+                </tr>
+            </table>
+
+
+        </section>
+        <script src="./formulario.js"></script>
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+</html>
